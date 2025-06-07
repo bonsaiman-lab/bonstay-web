@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bon Stay Matsu201｜盆宿 松の間</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
       body {
         font-family: sans-serif;
@@ -45,6 +46,17 @@
         margin-top: 10px;
         text-align: center;
         color: #666;
+      }
+      .facility-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 8px 0;
+      }
+      .facility-icon {
+        width: 24px;
+        height: 24px;
+        color: #0070f3;
       }
       .cta-button {
         display: inline-block;
@@ -100,13 +112,44 @@
 
     <section class="section">
       <h2>設備</h2>
-      <ul>
-        <li>Wi-Fi / 洗濯機 / 乾燥機</li>
-        <li>冷蔵庫 / 電子レンジ / トースター / ケトル</li>
-        <li>TV（Netflix, YouTube）※ID入力</li>
-        <li>アメニティ完備：歯ブラシ・シャンプー・タオル等</li>
-        <li>無料：お水・コーヒー・お茶・スナック</li>
-      </ul>
+      <div class="facility-list">
+        <div class="facility-item">
+          <i class="facility-icon fas fa-wifi"></i>
+          <span>Wi-Fi</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-tshirt"></i>
+          <span>洗濯機 / 乾燥機</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-temperature-low"></i>
+          <span>冷蔵庫</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-microchip"></i>
+          <span>電子レンジ</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-utensils"></i>
+          <span>トースター</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-hot-tub"></i>
+          <span>ケトル</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-tv"></i>
+          <span>TV（Netflix, YouTube）※ID入力</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-tooth"></i>
+          <span>アメニティ完備：歯ブラシ・シャンプー・タオル等</span>
+        </div>
+        <div class="facility-item">
+          <i class="facility-icon fas fa-coffee"></i>
+          <span>無料：お水・コーヒー・お茶・スナック</span>
+        </div>
+      </div>
     </section>
 
     <section class="section">
