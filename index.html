@@ -58,6 +58,17 @@
         height: 24px;
         color: #0070f3;
       }
+      .access-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 8px 0;
+      }
+      .access-icon {
+        width: 24px;
+        height: 24px;
+        color: #0070f3;
+      }
       .cta-button {
         display: inline-block;
         background: #0070f3;
@@ -101,13 +112,28 @@
           <div class="caption">JR高松駅から徒歩5分</div>
         </div>
       </div>
-      <ul>
-        <li>JR高松駅：徒歩5分</li>
-        <li>フェリー乗り場（直島/お豆島/豊島など）：徒歩13分</li>
-        <li>日本一長い商店街：徒歩2分</li>
-        <li>セブンイレブン：徒歩3分</li>
-        <li>スーパーマルナカ：徒歩5分</li>
-      </ul>
+      <div class="access-list">
+        <div class="access-item">
+          <i class="access-icon fas fa-train"></i>
+          <span>JR高松駅：徒歩5分</span>
+        </div>
+        <div class="access-item">
+          <i class="access-icon fas fa-ship"></i>
+          <span>フェリー乗り場（直島/お豆島/豊島など）：徒歩13分</span>
+        </div>
+        <div class="access-item">
+          <i class="access-icon fas fa-store"></i>
+          <span>日本一長い商店街：徒歩2分</span>
+        </div>
+        <div class="access-item">
+          <i class="access-icon fas fa-store"></i>
+          <span>セブンイレブン：徒歩3分</span>
+        </div>
+        <div class="access-item">
+          <i class="access-icon fas fa-shopping-cart"></i>
+          <span>スーパーマルナカ：徒歩5分</span>
+        </div>
+      </div>
     </section>
 
     <section class="section">
